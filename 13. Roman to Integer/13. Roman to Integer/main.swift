@@ -7,6 +7,11 @@
 
 import Foundation
 
+/*
+ Runtime: 22 ms, faster than 80.66% of Swift online submissions for Roman to Integer.
+ Memory Usage: 14.2 MB, less than 89.37% of Swift online submissions for Roman to Integer.
+*/
+
 class Solution {
     var romanNumbersDict : [Character: Int] = ["M":1000,"D":500,"C":100,"L":50,"X":10,"V":5,"I":1]
     
